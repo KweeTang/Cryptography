@@ -12,13 +12,5 @@ public class CaeserCipherTest {
 	 
 	 System.out.println(CaesarCipher.encryptTwoKeys("First Legion", 23, 17));
 		
-	/*
-	    int key = 23;
-		
-		FileResource fr = new FileResource();
-		String message = fr.asString();
-		String encrypted = CaesarCipher.encrypt(message, key);
-		System.out.println("key is " + key + "\n" + encrypted);
-	*/ 
 	}
 }
